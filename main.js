@@ -28,7 +28,7 @@ function sum(x, y) {
 // write your console.log/asserts here:
 // i've already written some console.logs and console.asserts for you.
 // follow this pattern as you work on the rest of these problems.
-// console.log('sum of 2 and 3 is ', sum(2,3));
+console.log('sum of 2 and 3 is ', sum(2,3));
 console.assert(sum(2,3) === 5);
 console.assert(sum(1,0), 1);
 console.assert(sum(-48,5), -43);
@@ -43,8 +43,8 @@ function average(x, y, z) {
 }
 
 // write your console.log/asserts here:
-// console.log('average of 4, 20, and 3 is', average(4, 20, 3));
-// console.assert(average(4, 20, 3) === 9);
+console.log('average of 4, 20, and 3 is', average(4, 20, 3));
+console.assert(average(4, 20, 3) === 9);
 
 
 // -------------------
@@ -56,8 +56,8 @@ function getLength(text) {
 }
 
 // write your console.log/asserts here:
-// console.log('The text entered is ', getLength('ominous'), ' characters long');
-// console.assert(getLength('who eats macdonalds?') > 2);
+console.log('The text entered is ', getLength('ominous'), ' characters long');
+console.assert(getLength('who eats macdonalds?') > 2);
 
 // -------------------
 // Write a function called `greaterThan` that takes two parameters and
@@ -73,9 +73,9 @@ function greaterThan(x, y) {
 }
 
 // write your console.log/asserts here:
-// console.log(greaterThan(4,3));
-// console.log(greaterThan(1, 100));
-// console.assert(greaterThan(2, 10) === true);
+console.log(greaterThan(4,3));
+console.log(greaterThan(1, 100));
+console.assert(greaterThan(2, 10) === true);
 
 // -------------------
 // Write a function called `greet` that takes a single parameter and returns a
@@ -87,8 +87,8 @@ function greet(name) {
 }
 
 // write your console.log/asserts here:
-// console.log(greet('Frank'));
-// console.assert(greet('Harry Potter'));
+console.log(greet('Frank'));
+console.assert(greet('Harry Potter'));
 
 // -------------------
 // Write a function called `madlib` that takes 4 or more parameters (words).
@@ -100,8 +100,8 @@ function madlib(wordOne, wordTwo, wordThree, wordFour) {
 }
 
 // write your console.log/asserts here:
-// console.log(madlib('cheese', 'nails', 'snake', 'laundry'));
-// console.assert(madlib('math', 'elephant', 'burger', 'space'));
+console.log(madlib('cheese', 'nails', 'snake', 'laundry'));
+console.assert(madlib('math', 'elephant', 'burger', 'space'));
 
 // -------------------
 // Write a function called `max` that returns the larger of two numbers
@@ -115,9 +115,9 @@ function max(x, y) {
 }
 
 // write your console.log/asserts here:
-// console.log(max(20, 100));
-// console.log(max(300, 40));
-// console.assert(max(300, 40) === 300);
+console.log(max(20, 100));
+console.log(max(300, 40));
+console.assert(max(300, 40) === 300);
 
 // -------------------
 // Write a function called `maxOfThree` that returns the largest of three
@@ -134,10 +134,10 @@ function maxOfThree(x, y, z) {
 }
 
 // write your console.log/asserts here:
-// console.log(maxOfThree(10, 20, 30));
-// console.log(maxOfThree(90, 1, 2));
-// console.log(maxOfThree(120, 999, 2));
-// console.assert(maxOfThree(122, 87, 99) === 122);
+console.log(maxOfThree(10, 20, 30));
+console.log(maxOfThree(90, 1, 2));
+console.log(maxOfThree(120, 999, 2));
+console.assert(maxOfThree(122, 87, 99) === 122);
 
 // ---------------------
 // Write a function called `isVowel` that receives a single character as a
@@ -154,11 +154,11 @@ function isVowel (letter) {
 }
 
 // write your console.log/asserts here:
-// console.log(isVowel('e'));
-// console.log(isVowel('z'));
-// console.log(isVowel('d'));
-// console.log(isVowel('e'));
-// console.assert(isVowel('t') === false);
+console.log(isVowel('e'));
+console.log(isVowel('z'));
+console.log(isVowel('d'));
+console.log(isVowel('e'));
+console.assert(isVowel('t') === false);
 
 // ---------------------
 // Write a function called `translate` that will translate a text into
@@ -188,9 +188,9 @@ function translate(phrase) {
 }
 
 // write your console.log/asserts here:
-// console.log(translate('Nevermore'));
-// console.assert(translate('Nevermore') === 'NoNevoverormomorore');
-// console.log(translate('Hi how are you?'));
+console.log(translate('Nevermore'));
+console.assert(translate('Nevermore') === 'NoNevoverormomorore');
+console.log(translate('Hi how are you?'));
 
 // ---------------------
 // Write a function called `reverse` that computes the reversal of a string.
@@ -204,8 +204,8 @@ function reverse(phrase) {
 }
 
 // write your console.log/asserts here:
-// console.log(reverse('Goodbye horses'));
-// console.assert(reverse('Goodbye horses') === 'sesroh eybdooG');
+console.log(reverse('Goodbye horses'));
+console.assert(reverse('Goodbye horses') === 'sesroh eybdooG');
 
 
 
@@ -226,9 +226,9 @@ function largest(numArray){
 }
 
 // // // write your console.log/asserts here:
-// console.log(largest(testArray));
-// console.log('the largest number in the `numbers` array is ', largest(testArray));
-// console.assert(largest(testArray) === 1200);
+console.log(largest(testArray));
+console.log('the largest number in the `numbers` array is ', largest(testArray));
+console.assert(largest(testArray) === 1200);
 
 // ---------------------
 // Write a function called `longest` that takes an array of strings and returns
@@ -246,10 +246,10 @@ function longest(strings) {
 }
 
 // write your console.log/asserts here:
-// console.log(longest(stringArray));
-// console.assert(longest(stringArray) === 'Smiles');
-// console.assert(longest(['how','are','you','doing']));
-// console.assert(longest(['how','are','you','doing']) === 'doing');
+console.log(longest(stringArray));
+console.assert(longest(stringArray) === 'Smiles');
+console.assert(longest(['how','are','you','doing']));
+console.assert(longest(['how','are','you','doing']) === 'doing');
 
 // ---------------------
 // Write a function called `getEvens` that takes an array of numbers and returns
@@ -268,8 +268,8 @@ function getEvens(array) {
 }
 
 // write your console.log/asserts here:
-// console.log(getEvens(testArray));
-// console.assert(getEvens(testArray)[2] === 4);
+console.log(getEvens(testArray));
+console.assert(getEvens(testArray)[2] === 4);
 
 // ---------------------
 // Write a function called `getOdds` that takes an array of numbers and returns
@@ -287,7 +287,7 @@ function getOdds(array) {
   return oddArray;
 }
 // write your console.log/asserts here:
-// console.log(getOdds(testArray));
+console.log(getOdds(testArray));
 console.assert(getOdds(testArray)[0] === 1);
 
 // ---------------------
@@ -307,8 +307,8 @@ function containsIs(array) {
   return newArray;
 }
 // write your console.log/asserts here:
-// console.log(containsIs(isArray));
-// console.assert(containsIs(isArray)[1] === 'Wish');
+console.log(containsIs(isArray));
+console.assert(containsIs(isArray)[1] === 'Wish');
 
 ///////////////////////////////////////////////////////////////////////////////
 //                                                      Adventurer Mode                                                              //
@@ -332,9 +332,9 @@ function contains(string, array) {
   return newArray;
 }
 // write your console.log/asserts here:
-// console.log(contains('oo', doomArray));
-// console.log(contains('ack', doomArray));
-// console.log(contains('ack', doomArray)[1] === 'smack');
+console.log(contains('oo', doomArray));
+console.log(contains('ack', doomArray));
+console.log(contains('ack', doomArray)[1] === 'smack');
 
 // ---------------------
 // Write a function called `teachersOf` that takes a subject returns only the
@@ -365,8 +365,8 @@ function teachersOf(subjectSearch, listOfTeachers) {
   return yourTeachers;
 }
 // write your console.log/asserts here:
-// console.log(teachersOf('Math', teachers));
-// console.assert(teachersOf('Math', teachers)[1] === 'Doc');
+console.log(teachersOf('Math', teachers));
+console.assert(teachersOf('Math', teachers)[1] === 'Doc');
 
 // ---------------------
 // Write a function called `objectMatches` that takes 2 strings and an array of
