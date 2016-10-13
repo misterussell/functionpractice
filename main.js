@@ -365,19 +365,52 @@ function teachersOf(subjectSearch, listOfTeachers) {
   return yourTeachers;
 }
 // write your console.log/asserts here:
-console.log(teachersOf('Math', teachers));
-console.assert(teachersOf('Math', teachers)[1] === 'Doc');
+// console.log(teachersOf('Math', teachers));
+// console.assert(teachersOf('Math', teachers)[1] === 'Doc');
 
 // ---------------------
 // Write a function called `objectMatches` that takes 2 strings and an array of
 // objects as parameters. The first string is the value to find inside an
 // object. The second string string is the key where you want to look for the
+// value, key, array
 // value inside the objects. The array is the array of objects through which to
 // search. The function should return a new array of objects that have the
 // specified value in the specified key.
-// write your code here:
+// write your code here:s
+
+function artist(name, medium, material) {
+  this.name = name;
+  this.medium = medium;
+  this.material = material;
+}
+var artists = [];
+artists[0] = new artist('Degas' , 'Painting' , 'Oils');
+artists[1] = new artist('Jimmy' , 'Sculpture' , 'Wood');
+artists[2] = new artist('Wangechi' , 'Drawing' , 'Ink');
+artists[3] = new artist('Lila' , 'Drawing' , 'Ink');
+artists[4] = new artist('Mondrian' , 'Painting' , 'Oils');
+artists[5] = new artist('Larry' , 'Sculpture' , 'Wood');
+artists[6] = new artist('John' , 'Drawing' , 'Graphite');
+
+function objectMatches(value, key, objArray) {
+  var newArray = [];
+  x = 0;
+  i = 0;
+  searchBy = key;
+  searchFor = value;
+  do {
+    if (objArray[i].searchBy === searchFor) {
+      newArray[x] = objArray[i];
+      x++;
+    }
+    i++;
+  } while (i < artists.length);
+  return newArray;
+}
+
 
 // write your console.log/asserts here:
+// console.log(objectMatches('Wood', 'medium', artists));
 // console.log('the objects that match javascript teachers are', objectMatches('JavaScript', 'teaches', instructors))
 
 ///////////////////////////////////////////////////////////////////////////////
